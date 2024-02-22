@@ -10,12 +10,6 @@ module.exports = defineConfig({
           return fs.readdirSync(path);
         },
       });
-     
-      // config.specPattern = [
-      //  "cypress/e2e/blogdoagi/tests/test01.CT001.cy.ts",
-      //  "cypress/e2e/blogdoagi/tests/test02.CT002.cy.ts",
-      // ];
-      
     },
     baseUrl: 'https://blogdoagi.com.br/',
     chromeWebSecurity: false,

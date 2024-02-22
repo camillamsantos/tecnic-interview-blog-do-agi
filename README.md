@@ -43,7 +43,10 @@
     - allure generate allure-results
     - allure open allure-report
 
-
+<img src="cypress/fixtures/1.jpg">
+<img src="cypress/fixtures/2.jpg">
+<img src="cypress/fixtures/3.jpg">
+<img src="cypress/fixtures/4.jpg">
 - 
 
 
