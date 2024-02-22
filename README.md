@@ -47,7 +47,9 @@
 <img src="cypress/fixtures/2.jpg">
 <img src="cypress/fixtures/3.jpg">
 <img src="cypress/fixtures/4.jpg">
-- 
+
+
+[Cypress Cloud](https://cloud.cypress.io/projects/51exbc/runs?branches=%5B%5D&committers=%5B%5D&flaky=%5B%5D&page=1&status=%5B%5D&tags=%5B%5D&tagsMatch=ANY&timeRange=%7B%22startDate%22%3A%222023-02-22%22%2C%22endDate%22%3A%222024-02-22%22%7D)
 
 
 

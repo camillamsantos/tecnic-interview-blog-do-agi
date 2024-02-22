@@ -19,6 +19,7 @@ module.exports = defineConfig({
     pageLoadTimeout: 60000,
     execTimeout: 60000,
     taskTimeout: 60000,
+    projectId: "51exbc",
   },
 });
 
