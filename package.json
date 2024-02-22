@@ -9,5 +9,24 @@
     "faker-br": "^0.4.1",
     "mime-types": "^2.1.35",
     "typescript": "^5.2.2"
-  }
+  },
+  "scripts": {
+    "cy:run:electron": "npx cypress run",
+    "cy:run:chrome": "npx cypress run --browser chrome --headless",
+    "cy:run:firefox": "npx cypress run --browser firefox --headless",
+    "cy:run:edge": "npx cypress run --browser edge --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camillamsantos/tecnic-interview-blog-do-agi.git"
+  },
+  "keywords": [],
+  "author": "Camilla Marques dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camillamsantos/tecnic-interview-blog-do-agi/issues"
+  },
+  "homepage": "https://github.com/camillamsantos/tecnic-interview-blog-do-agi#readme"
 }
+  
+

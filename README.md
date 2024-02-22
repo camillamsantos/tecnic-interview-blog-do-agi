@@ -3,8 +3,8 @@
 ## Tecnologias
 
   - Cypress @ 13.6.5
-  - NodeJS @ v19.7.0
-  - NPM @ 9.6.0
+  - NodeJS @ v16.20.0
+  - NPM @ 8.19.4
 
 ## Setup
 
@@ -18,11 +18,7 @@
   - Clonar o repositório
   - Dentro da raiz do projeto, executar o comando [npm install]
   - Executar os comandos a seguir para rodar os testes em modo headless nos navegadores:
-  
-    
-- xxxx: [npm run xxxx]
-- xxxx: [npm run xxxx]
-    
+      
     - Electron: [npm run cy:run:electron]
     - Chrome: [npm run cy:run:chrome]
     - Firefox: [npm run cy:run:firefox]
@@ -39,10 +35,11 @@
 
     - Acessa pasta e2e/docs/
     - Acessa pasta e2e/scenarios/
-    
+
     Rodar teste em modo headless e gerar relatório pelo allure:
 
-    - npx cypress run nometeste.cy.js --config video=false --env allure=true
+    - Para um teste especifico: npx cypress run nometeste.cy.js --config video=false --env allure=true
+    - Para todos os testes: cypress run --env allure=true
     - allure generate allure-results
     - allure open allure-report
 
