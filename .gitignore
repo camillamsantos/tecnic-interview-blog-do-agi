@@ -8,6 +8,5 @@ cypress/reports
 
 #others
 
-package-lock.json
 node_modules
 
